@@ -1,11 +1,10 @@
 cask 'pharo-launcher' do
-  version '0.2.13'
-  sha256 'caca19ddbfbc75435a816d4fd0d54d196f82693f55a99416495f3adf15d1fb9a'
+  version '1.5.1'
+  sha256 'ecef3c2a475d5f79f7bbb5e3facabaf3aea68c935cb4479d9463d09e871e7d42'
 
-  url "http://files.pharo.org/platform/launcher/Pharo_#{version}.dmg"
+  url "https://files.pharo.org/pharo-launcher/#{version}/PharoLauncher-#{version}-x64.dmg"
   name 'Pharo Launcher'
-  homepage 'https://github.com/pharo-project/pharo-launcher'
+  homepage 'http://pharo.org/download'
 
-  # Renamed to avoid conflict with bare Pharo virtual machines
-  app "Pharo.app", target: 'Pharo Launcher.app'
+  app 'PharoLauncher.app'
 end
