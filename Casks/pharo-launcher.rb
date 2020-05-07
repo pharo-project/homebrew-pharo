@@ -1,6 +1,6 @@
 cask 'pharo-launcher' do
-  version '1.9.2'
-  sha256 '6b6cb042657eada53aa04f3758d29da346200c973a61341b059b576a8a1d67f7'
+  version '2.0'
+  sha256 '1da8ef2752b359b804072ba692990e989be4c66d6a761a50ab0693082ac805c7'
 
   url "https://files.pharo.org/pharo-launcher/#{version}/PharoLauncher-#{version}-x64.dmg"
   name 'Pharo Launcher'
