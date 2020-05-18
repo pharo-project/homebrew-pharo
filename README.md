@@ -5,10 +5,6 @@
 ## Requirements
 
 - [Homebrew][] in an acceptably recent macOS
-- tap this repo into your Homebrew installation (one-time operation):
-```sh
-$ brew tap pharo-project/pharo
-```
 
 ## Usage
 
