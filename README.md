@@ -10,9 +10,7 @@
 
 You can now install our casks, e.g. Pharo Launcher:
 ```sh
-$ brew cask install pharo-project/pharo/pharo-launcher
+$ brew install pharo-project/pharo/pharo-launcher
 ```
 
-Note that the name of the tap appears explicitly in the above command; this is
-necessary to disambiguate `pharo` and `pharo-launcher` from the existing casks
-in `caskroom/homebrew-casks`.
+Please note that the name of the tap appears explicitly in the above command.
