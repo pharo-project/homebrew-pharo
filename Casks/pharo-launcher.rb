@@ -1,10 +1,10 @@
-cask 'pharo-launcher' do
-  version '2.2'
-  sha256 '99edeafeeaee64958ef14287791df2228c1d5c8ad83732452d27b471c35dac52'
+cask "pharo-launcher" do
+  version "3.0.1"
+  sha256 "44b4c46f00a381e8b3d92838ba7ea7615cb4ff66490a4e7c53675fbe38d8e226"
 
   url "https://files.pharo.org/pharo-launcher/#{version}/PharoLauncher-#{version}-x64.dmg"
-  name 'Pharo Launcher'
-  homepage 'http://pharo.org/download'
+  name "Pharo Launcher"
+  homepage "http://pharo.org/download"
 
-  app 'PharoLauncher.app'
+  app "PharoLauncher.app"
 end
